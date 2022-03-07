@@ -1,0 +1,103 @@
+.forms{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.forms p{
+    width: 70%;
+}
+
+.forms h1{
+    font-size: 20pt;
+}
+
+.forms h2{
+    font-size: 16pt;
+}
+
+fieldset.group{ 
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 1.25em; 
+    padding: .125em; 
+    left: 25%;
+    width: 50%;
+} 
+  
+fieldset.group legend{ 
+    margin: 0; 
+    padding: 0; 
+    font-weight: bold; 
+    margin-left: 20px; 
+    font-size: 100%; 
+    color: black; 
+} 
+  
+  
+ul.checkbox{ 
+    margin: 0; 
+    padding: 0.25rem; 
+    margin-left: 20px; 
+    list-style: none; 
+} 
+  
+ul.checkbox li input{ 
+    margin-right: .25em; 
+} 
+  
+ul.checkbox li{ 
+    border: 1px transparent solid; 
+    display:inline-block;
+    width:12em;
+} 
+
+fieldset.decoration legend{ 
+    margin: 0; 
+    padding: 0; 
+    font-weight: bold; 
+    margin-left: 20px; 
+    font-size: 100%; 
+    color: black; 
+} 
+
+.decoration{
+    width: 50%;
+    left: 10%;
+}
+
+.data-user{
+    width: 50%;
+}
+
+input[type=text]{
+    width: 50%;
+}
+
+#message{
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+#description{
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.order-now{
+    position: relative;
+    right: -51%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20pt;
+}

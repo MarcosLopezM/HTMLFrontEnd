@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrakis Cake Shop</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/_order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./assets/img/logo/logo.svg" alt="brand logo" id="logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="order.html">Order Now</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="signin.html"><button name="sign-in" type="button" class="btn-style">Log in</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="main-body">
+    <div class="forms">
+        <h1>Cake order</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae dolorem praesentium optio, rem, laborum voluptas eos veniam dolores odit cumque, facilis aliquam! Consequatur aliquam perferendis unde quod vero magni!</p>
+        
+        <h2>Type of cake</h2>
+        <fieldset class="group"> 
+            <legend>Select the type of cake</legend> 
+            <ul class="checkbox"> 
+              <li><input type="checkbox" id="cake1" value="redVelvet" /><label for="cake1">Red Velvet</label></li> 
+              <li><input type="checkbox" id="cake2" value="vanilla" /><label for="cake2">Vanilla</label></li> 
+              <li><input type="checkbox" id="cake3" value="chocolate" /><label for="cake3">Chocolate</label></li> 
+              <li><input type="checkbox" id="cake4" value="tresLeches" /><label for="cake4">Tres Leches</label></li> 
+              <li><input type="checkbox" id="cake5" value="appleCake" /><label for="cake5">Apple Cake</label></li> 
+              <li><input type="checkbox" id="cake6" value="blackForestCake" /><label for="cake6>">Black Forest Cake</label></li> 
+            </ul> 
+        </fieldset> 
+        
+        <h2>Customize your cake</h2>
+        <fieldset class="decoration">
+            <legend>Choose your decoration</legend>
+            <ul class="radio"> 
+                <li><input type="radio" id="decoration1" value="fondantIcing" /><label for="decoration1">Fondant Icing</label></li> 
+                <li><input type="radio" id="decoration2" value="marzipan" /><label for="decoration2">Marzipan</label></li> 
+                <li><input type="radio" id="decoration3" value="meringueFrosting" /><label for="decoration3">Meringue Frosting</label></li> 
+                <li><input type="radio" id="decoration4" value="gumPaste" /><label for="decoration4">Gum Paste</label></li>
+              </ul>
+            <label for="message">Message</label>
+            <br>
+            <input type="text" name="message" id="message">
+        </fieldset>
+
+        <h2>Datos</h2>
+        <fieldset class="data-user">
+            <legend>Introduzca sus datos de contacto</legend>
+            <form action="#" id="form1" method="post">
+                <label for="nombre">Names(s):</label>
+                <br>
+                <input type="text" id="nombre" name="nombre">
+                <br>
+                <label for="apellido">Last Name:</label>
+                <br>
+                <input type="text" name="apellido" id="apellido">
+                <br>
+                <label for="telephone">Telephone Number:</label>
+                <br>
+                <input type="tel" name="telephone" id="telephone">
+                <br>
+                <label for="address">Address:</label>
+                <br>
+                <input type="text" name="address" id="address">
+                <br>
+                <label for="description">Description:</label>
+                <br>
+                <input type="text" name="description" id="description">
+            </form>
+        </fieldset>
+        <div class="order-now">
+            <input type="button" value="Order">
+        </div>
+    </div>  
+    </section>    
+</body>
+</html>
